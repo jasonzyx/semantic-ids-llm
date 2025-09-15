@@ -22,8 +22,8 @@ INPUT = "I just finished Dragon Quest Heroes II. Suggest another <|rec|> and exp
 
 ```bash
 # Clone the repository
-git clone https://github.com/eugeneyan/semantic-ids.git
-cd semantic-ids
+git clone https://github.com/eugeneyan/semantic-ids-llm.git
+cd semantic-ids-llm
 
 # Install dependencies with uv
 uv sync
@@ -65,7 +65,7 @@ The key innovation: **One unified model** instead of separate search/recommendat
 ## Project Structure
 
 ```
-semantic-ids/
+semantic-ids-llm/
 ├── notebooks/
 │   ├── 01-prep-items-and-sequences.ipynb
 │   ├── 02-clean-descriptions.ipynb
